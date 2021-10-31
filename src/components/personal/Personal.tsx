@@ -19,7 +19,7 @@ class Personal extends React.Component<PersonalProps> {
         return (
             <div className={bem.b()}>
                 <p className={bem.e("line")}>
-                    I'm a software developer from Lawrenceville just outside of
+                    I'm a software developer from Johns Creek just outside of
                     Atlanta, Georgia.
                 </p>
 

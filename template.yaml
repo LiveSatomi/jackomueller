@@ -136,7 +136,7 @@ Resources:
         Fn::Join:
           - *delimiter
           - - *resourceName
-            - "pipeline-source-connection"
+            - "source"
       ProviderType: GitHub
   PipelineArtifactBucket:
     Type: AWS::S3::Bucket
